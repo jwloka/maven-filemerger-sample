@@ -1,0 +1,7 @@
+.DS_Store
+target/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/atlassian-ide-plugin.xml
+.idea/uiDesigner.xml
+.idea/libraries/Maven_*

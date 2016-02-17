@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/example-module1/example-module1.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/example-module1/example-module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/example-module2/example-module2.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/example-module2/example-module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/example-module3/example-module3.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/example-module3/example-module3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-filemerger/simple-filemerger.iml" filepath="$PROJECT_DIR$/simple-filemerger/simple-filemerger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/simple-filemerger-example.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/simple-filemerger-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-project.iml" filepath="$PROJECT_DIR$/simple-filemerger-project.iml" />
+    </modules>
+  </component>
+</project>
