@@ -11,6 +11,24 @@
     <artifactId>example-module3</artifactId>
     <packaging>jar</packaging>
 
-
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.wloka.maven</groupId>
+                <artifactId>simple-filemerger</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>collect</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <targetFile>${project.build.directory}/classes.log</targetFile>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

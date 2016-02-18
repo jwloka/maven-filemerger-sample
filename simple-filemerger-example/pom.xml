@@ -10,8 +10,6 @@
     <artifactId>simple-filemerger-example</artifactId>
     <packaging>pom</packaging>
 
-
-    <name>Simple File Merger :: Example Project</name>
     <description>A project to demonstrate how files generated in multiple sub-mudules can be merged.</description>
 
     <modules>
@@ -19,5 +17,26 @@
         <module>example-module2</module>
         <module>example-module3</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.wloka.maven</groupId>
+                <artifactId>simple-filemerger</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>merge</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <targetFile>${project.build.directory}/simple-filemerger/classes.log</targetFile>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

@@ -5,6 +5,6 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses(FileMergerMojoTest.class)
-public class AllUnitTests {
+@SuiteClasses({CollectClassesMojoTest.class, MergeTaskMojoTest.class})
+public class AllTests {
 }

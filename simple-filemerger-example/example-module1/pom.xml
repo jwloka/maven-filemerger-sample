@@ -21,15 +21,11 @@
                     <execution>
                         <phase>process-sources</phase>
                         <goals>
-                            <goal>merge</goal>
+                            <goal>collect</goal>
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <targetFile>${project.build.directory}/simple-filemerger/classes.log</targetFile>
-                </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
