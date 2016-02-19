@@ -4,18 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>simple-filemerger-example</artifactId>
+        <artifactId>maven-filemerger-example</artifactId>
         <groupId>org.wloka.maven</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>example-module3</artifactId>
+    <artifactId>example-module2</artifactId>
     <packaging>jar</packaging>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.wloka.maven</groupId>
-                <artifactId>simple-filemerger</artifactId>
+                <artifactId>maven-filemerger</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
                 <executions>
                     <execution>
@@ -26,7 +26,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <targetFile>${project.build.directory}/classes.log</targetFile>
+                    <targetFile>${project.build.directory}/maven-filemerger/classes.log</targetFile>
                 </configuration>
             </plugin>
         </plugins>

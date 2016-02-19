@@ -25,16 +25,17 @@
         <module name="example-module1" />
         <module name="example-module2" />
         <module name="example-module3" />
-        <module name="simple-filemerger" />
+        <module name="maven-filemerger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="example-module1" target="1.8" />
       <module name="example-module2" target="1.8" />
       <module name="example-module3" target="1.8" />
-      <module name="simple-filemerger" target="1.8" />
-      <module name="simple-filemerger-example" target="1.8" />
-      <module name="simple-filemerger-project" target="1.8" />
+      <module name="maven-filemerger" target="1.8" />
+      <module name="maven-filemerger-example" target="1.8" />
+      <module name="maven-filemerger-project" target="1.8" />
+      <module name="maven-filemerger-sample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

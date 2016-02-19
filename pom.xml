@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.wloka.maven</groupId>
-    <artifactId>simple-filemerger-project</artifactId>
+    <artifactId>maven-filemerger-project</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -18,8 +18,8 @@
     </properties>
 
     <modules>
-        <module>simple-filemerger</module>
-        <module>simple-filemerger-example</module>
+        <module>maven-filemerger</module>
+        <module>maven-filemerger-example</module>
     </modules>
 
 

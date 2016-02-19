@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/example-module1/example-module1.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/example-module1/example-module1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/example-module2/example-module2.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/example-module2/example-module2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/example-module3/example-module3.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/example-module3/example-module3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-filemerger/simple-filemerger.iml" filepath="$PROJECT_DIR$/simple-filemerger/simple-filemerger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-example/simple-filemerger-example.iml" filepath="$PROJECT_DIR$/simple-filemerger-example/simple-filemerger-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-filemerger-project.iml" filepath="$PROJECT_DIR$/simple-filemerger-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-filemerger-example/example-module1/example-module1.iml" filepath="$PROJECT_DIR$/maven-filemerger-example/example-module1/example-module1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-filemerger-example/example-module2/example-module2.iml" filepath="$PROJECT_DIR$/maven-filemerger-example/example-module2/example-module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-filemerger-example/example-module3/example-module3.iml" filepath="$PROJECT_DIR$/maven-filemerger-example/example-module3/example-module3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-filemerger/maven-filemerger.iml" filepath="$PROJECT_DIR$/maven-filemerger/maven-filemerger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-filemerger-example/maven-filemerger-example.iml" filepath="$PROJECT_DIR$/maven-filemerger-example/maven-filemerger-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-filemerger-sample.iml" filepath="$PROJECT_DIR$/maven-filemerger-sample.iml" />
     </modules>
   </component>
 </project>

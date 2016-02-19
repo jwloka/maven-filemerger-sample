@@ -18,7 +18,7 @@
             <map />
           </option>
           <option name="resolveToWorkspace" value="false" />
-          <option name="workingDirPath" value="$PROJECT_DIR$/simple-filemerger-example" />
+          <option name="workingDirPath" value="$PROJECT_DIR$/maven-filemerger-example" />
         </MavenRunnerParameters>
       </option>
     </MavenSettings>

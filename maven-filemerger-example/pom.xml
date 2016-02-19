@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>simple-filemerger-project</artifactId>
+        <artifactId>maven-filemerger-project</artifactId>
         <groupId>org.wloka.maven</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>simple-filemerger-example</artifactId>
+    <artifactId>maven-filemerger-example</artifactId>
     <packaging>pom</packaging>
 
     <description>A project to demonstrate how files generated in multiple sub-mudules can be merged.</description>
@@ -22,7 +22,7 @@
         <plugins>
             <plugin>
                 <groupId>org.wloka.maven</groupId>
-                <artifactId>simple-filemerger</artifactId>
+                <artifactId>maven-filemerger</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
                 <executions>
                     <execution>
@@ -33,7 +33,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <targetFile>${project.build.directory}/simple-filemerger/classes.log</targetFile>
+                    <targetFile>${project.build.directory}/maven-filemerger/classes.log</targetFile>
                 </configuration>
             </plugin>
         </plugins>
