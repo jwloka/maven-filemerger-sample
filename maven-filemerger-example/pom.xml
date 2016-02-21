@@ -23,7 +23,6 @@
             <plugin>
                 <groupId>org.wloka.maven</groupId>
                 <artifactId>maven-filemerger</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
                 <executions>
                     <execution>
                         <phase>initialize</phase>
@@ -37,6 +36,15 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
 
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.wloka.maven</groupId>
+                    <artifactId>maven-filemerger</artifactId>
+                    <version>0.0.1-SNAPSHOT</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>

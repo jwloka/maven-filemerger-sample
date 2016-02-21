@@ -22,5 +22,7 @@
         <module>maven-filemerger-example</module>
     </modules>
 
-
+    <scm>
+        <url>https://github.com/jwloka/maven-filemerger-sample.git</url>
+    </scm>
 </project>
