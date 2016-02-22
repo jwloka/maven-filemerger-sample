@@ -58,7 +58,7 @@ You can merge the gathered data from transitively defined sub-modules by adding 
             <version>0.0.1-SNAPSHOT</version>
             <executions>
                 <execution>
-                    <phase>initialise</phase>
+                    <phase>initialize</phase>
                     <goals>
                         <goal>merge</goal>
                     </goals>
